@@ -12,7 +12,7 @@ import hello.views
 urlpatterns = [
     url(r'^$', hello.views.index, name='index'),
     url(r'^tea', hello.views.tea, name='tea'),
-#    url(r'^times', hello.views.ostimes, name='ostimes'),
+    url(r'^times', hello.views.ostimes, name='ostimes'),
     url(r'^db', hello.views.db, name='db'),
     url(r'^admin/', include(admin.site.urls)),
 ]
